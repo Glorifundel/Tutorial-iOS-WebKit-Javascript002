@@ -13,6 +13,9 @@
 		963F2D3B1C697B2600CB02E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963F2D3A1C697B2600CB02E8 /* Assets.xcassets */; };
 		963F2D3E1C697B2600CB02E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963F2D3C1C697B2600CB02E8 /* LaunchScreen.storyboard */; };
 		963F2D491C697B2600CB02E8 /* Tutorial_WebKit_Javascript002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963F2D481C697B2600CB02E8 /* Tutorial_WebKit_Javascript002Tests.swift */; };
+		963F2D541C697B8600CB02E8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963F2D531C697B8600CB02E8 /* WebKit.framework */; };
+		963F2D571C697D7000CB02E8 /* example002.html in Resources */ = {isa = PBXBuildFile; fileRef = 963F2D551C697D7000CB02E8 /* example002.html */; };
+		963F2D581C697D7000CB02E8 /* example002.js in Resources */ = {isa = PBXBuildFile; fileRef = 963F2D561C697D7000CB02E8 /* example002.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		963F2D441C697B2600CB02E8 /* Tutorial-WebKit-Javascript002Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutorial-WebKit-Javascript002Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963F2D481C697B2600CB02E8 /* Tutorial_WebKit_Javascript002Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_WebKit_Javascript002Tests.swift; sourceTree = "<group>"; };
 		963F2D4A1C697B2600CB02E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963F2D531C697B8600CB02E8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		963F2D551C697D7000CB02E8 /* example002.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example002.html; sourceTree = "<group>"; };
+		963F2D561C697D7000CB02E8 /* example002.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = example002.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963F2D541C697B8600CB02E8 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 		963F2D271C697B2600CB02E8 = {
 			isa = PBXGroup;
 			children = (
+				963F2D531C697B8600CB02E8 /* WebKit.framework */,
 				963F2D321C697B2600CB02E8 /* Tutorial-WebKit-Javascript002 */,
 				963F2D471C697B2600CB02E8 /* Tutorial-WebKit-Javascript002Tests */,
 				963F2D311C697B2600CB02E8 /* Products */,
@@ -81,6 +89,8 @@
 				963F2D351C697B2600CB02E8 /* ViewController.swift */,
 				963F2D371C697B2600CB02E8 /* Main.storyboard */,
 				963F2D3A1C697B2600CB02E8 /* Assets.xcassets */,
+				963F2D551C697D7000CB02E8 /* example002.html */,
+				963F2D561C697D7000CB02E8 /* example002.js */,
 				963F2D3C1C697B2600CB02E8 /* LaunchScreen.storyboard */,
 				963F2D3F1C697B2600CB02E8 /* Info.plist */,
 			);
@@ -177,6 +187,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963F2D571C697D7000CB02E8 /* example002.html in Resources */,
+				963F2D581C697D7000CB02E8 /* example002.js in Resources */,
 				963F2D3E1C697B2600CB02E8 /* LaunchScreen.storyboard in Resources */,
 				963F2D3B1C697B2600CB02E8 /* Assets.xcassets in Resources */,
 				963F2D391C697B2600CB02E8 /* Main.storyboard in Resources */,
